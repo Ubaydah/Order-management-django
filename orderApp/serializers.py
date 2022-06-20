@@ -6,7 +6,7 @@ from .models import Order, Shipment
 class OrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Order
-        fields = ["id", "name", "quantity", "weight", "created_at"]
+        fields = ["id", "name", "quantity", "weight", "price", "created_at"]
 
 
 class ShipmentSerializer(serializers.ModelSerializer):
