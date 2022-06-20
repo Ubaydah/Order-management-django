@@ -22,3 +22,5 @@ $ pipenv install celery
 $ pipenv install redis
 
 $ heroku create order-system-app
+
+$ heroku git:remote -a order-system-app

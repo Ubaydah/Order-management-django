@@ -8,6 +8,9 @@ django = "*"
 djangorestframework = "*"
 celery = "*"
 redis = "*"
+django-heroku = "*"
+dj-database-url = "*"
+gunicorn = "*"
 
 [dev-packages]
 

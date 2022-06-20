@@ -11,3 +11,4 @@ def send_shipment_email(owner_name, order_name, owner_email):
     )
     email = EmailMessage(mail_subject, message, to=[owner_email])
     email.send()
+
