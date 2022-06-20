@@ -1,0 +1,24 @@
+
+$ pipenv shell
+
+$ pipenv install django
+
+$ pipenv install djangorestframework
+
+$ django-admin startproject orderSystem
+
+$ cd orderSystem
+
+$ python manage.py startapp orderApp
+
+
+$ python manage.py makemigrations
+
+$ python manage.py migrate
+
+
+$ pipenv install celery
+
+$ pipenv install redis
+
+$ heroku create order-system-app
